@@ -27,6 +27,8 @@ nnoremap <silent> ;w :update<CR>
 " ;wq = :wq
 nnoremap <silent> ;wq :update \| :q<CR>
 
+" 將//映射為取消搜索高亮的快捷鍵
+nnoremap // :noh<CR>
 
 
 
@@ -160,7 +162,7 @@ hi comment gui=bold
 "字串、標頭檔名稱
 hi String gui=bold
 " bold C/C++ Include  
-hi link Include GruvboxBlueBold  " origin: GruvboxAquaBold`
+hi link Include GruvboxAquaBold  " origin: GruvboxAquaBold`
 " typedef 、return 、struct etc
 hi link Keyword GruvboxRedBold 
 " 數字
